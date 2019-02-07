@@ -21,7 +21,8 @@ export const createClearRedux = <State, Actions>(
   const actions = mapValues(actionsConfig, (config, key) => {
     const type = createType(key)
 
-    const actionCreator = (...payload) => ({
+    // TODO: add real type
+    const actionCreator = (...payload: any[]) => ({
       type,
       payload,
     })
@@ -47,7 +48,7 @@ export const createClearRedux = <State, Actions>(
   }
 
   return {
-    actions: actions as any,
+    actions: actions as any, // TODO: add real type
     reducer,
   }
 }
