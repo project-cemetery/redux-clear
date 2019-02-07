@@ -4,3 +4,12 @@ node_js:
 - '10'
 cache: yarn
 script: yarn ci
+deploy:
+  provider: npm
+  email: igor@kamyshev.me
+  skip_cleanup: true
+  api_key:
+    secure: qxwQeb19/ljXotfsiDWeTqCUoOk9Dvnp8glh8lVG3pSetJ+jc0wFhy5MWR3YKox97dLkrarGvy8hCPXypWf6QxkiPdVy19m26gbFgnvZL+5BbULfikHHg8+lA+4AHHTkMnMEnERsuduWGhSTUnhpv3dz8VO+Ps/82i8nt6PpSm+okM6g8ICa9xqUYpgxR24D350h6/AqS9j5rSjHVGSbdzEosQjOVD4AgpBwS5RvpercoPzD6vq3YFUq3x7BTT7sov2bkaYYybcUNo09yPVuxr3bvLNOMqoa7B3jPM8KPwkZKw+OOSuSSjdGLCOv5mRqyTRbdm4KlotHGc24bSjStb3i7GGagMpkIyUV71f2HZRNPdamIHSbsmuwwY3ZlTef3sWTvTb1M4fEGiK4AgEGZEevgs96ZVIv7k1S4jHdy6Qd7or4zkzZi2ZXuhD6JojXButfwA50cEaBigHzmUWeh2RwDWVzkVUhPzBuKSMu/zTFSMmzgfjPjS0+ur21kpTkjrwpiR+hHgpPo2pSi+0JHPWDkYN4NhJ1qrahBQdUIT5GgcwFlttrjH0bFj0qHnyt64f6WqarIcMZn3j1Lyed4sPLAbN7gvKpxmsMCWiykI20m7hpUXWmr/FLBnzKSkJI/ciX4rVka1X5EFOcEUiihr5EO6kuK5vtc/qipLmjFo8=
+  on:
+    tags: true
+    repo: igorkamyshev/redux-clear

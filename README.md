@@ -8,7 +8,7 @@
 
 ```ts
 
-import { createClearRedux } from 'redux-clear'
+import { createClearRedux, ClearAction } from 'redux-clear'
 
 type State = number
 interface Actions {
