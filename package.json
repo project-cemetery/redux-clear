@@ -64,5 +64,11 @@
   },
   "publishConfig": {
     "access": "public"
+  },
+  "peerDependencies": {
+    "redux": "^4.0.1"
+  },
+  "dependencies": {
+    "nanoid": "^2.0.1"
   }
 }
