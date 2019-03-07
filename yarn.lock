@@ -4905,6 +4905,11 @@ tslint@^5.12.1:
     tslib "^1.8.0"
     tsutils "^2.27.2"
 
+tsoption@^0.7.0:
+  version "0.7.0"
+  resolved "https://registry.yarnpkg.com/tsoption/-/tsoption-0.7.0.tgz#54634ff56d1bd09d8886fd5bd0d1a5373789440a"
+  integrity sha512-0FaCR76q5OAb/73Yvl7GOM4IldI+fN4n0w7oKW7JHsuYMRfvhCj29kfKK11YzYywwIXCRtb2UwBrz1wVKzdmrQ==
+
 tsutils@^2.27.2:
   version "2.29.0"
   resolved "https://registry.yarnpkg.com/tsutils/-/tsutils-2.29.0.tgz#32b488501467acbedd4b85498673a0812aca0b99"

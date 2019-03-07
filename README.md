@@ -26,3 +26,12 @@ actions.addAndMult(12, 2) // just didpatch it
 reducer // just pass it to `combineReducers`
 
 ```
+
+## Easy fetching
+
+```ts
+
+import { createClearReduxWithFetching, ClearAction } from 'redux-clear'
+
+// TODO: add example
+```

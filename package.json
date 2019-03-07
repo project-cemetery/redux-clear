@@ -69,6 +69,7 @@
     "redux": "^4.0.1"
   },
   "dependencies": {
-    "nanoid": "^2.0.1"
+    "nanoid": "^2.0.1",
+    "tsoption": "^0.7.0"
   }
 }
